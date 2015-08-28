@@ -11,4 +11,3 @@ int main() {
     }
     printf("The sum of all multiples of 3 and 5 below %d is %d\n", n, res);
 }
-
