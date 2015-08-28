@@ -1,7 +1,5 @@
-#Project Euler solutions
+#Random problems on algorithmics, mostly for refreshing C
 
-https://projecteuler.net
-
-1. [Problem 1](https://projecteuler.net/problem=1) - 1_mult_3_5.c
-2. [Problem 2](https://projecteuler.net/problem=2) - 2_even_fibonacci.c
-3. [Problem 3](https://projecteuler.net/problem=3) - 3_largest_prime_project.c
+1. Multiples of 3 and 5 - mult_3_5.c
+2. Even Fibonacci numbers - even_fibonacci.c
+3. Largest prime factor - largest_prime_project.c
