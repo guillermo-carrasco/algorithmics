@@ -32,5 +32,3 @@
 *.dSYM/
 
 bin
-src
-!src/*.c
