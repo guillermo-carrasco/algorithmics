@@ -5,3 +5,4 @@
 3. Largest prime factor - `src/largest_prime_factor.c`
 4. Largest palindrom product -  `src/largest_palindrom_product.c`
 5. Smallest multiple - `src/smallest_multiple.c`
+6. Sum square difference - `src/sum_square_difference.c`

@@ -30,3 +30,15 @@ int main() {
 	square_of_sum = pow(square_of_sum, 2);
 	printf("%ld\n", square_of_sum - sum_of_squares);
 }
+
+/*
+A more efficient way would be to apply some mathematical properties. i.e
+
+(1 + 2 + ... + n)^2 = n^2 * (n+1)^2 * 1/4
+
+and
+
+1^2 + 2^2 + ... + n^2 = n * (n+1) * (2n+1) * 1/6
+
+Then its immediate, no need for a loop.
+*/
