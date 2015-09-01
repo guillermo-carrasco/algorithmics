@@ -18,22 +18,15 @@ numbers and the square of the sum.
 #include <stdio.h>
 #include <math.h>
 
-long sum_of_squares(int n) {
-	int i;
-	int res = 0;
-	for (i=1; i<=n; i++) res += (long) pow(i, 2);
-	return res;
-}
-
-long square_of_sum(int n) {
-	int i;
-	int res = 0;
-	for (i=1; i<=n; i++) res += i;
-	return (long) pow(res, 2);
-}
 
 int main() {
-	long sum_o_s = sum_of_squares(N);
-	long square_o_s = square_of_sum(N);
-	printf("%ld\n", square_o_s - sum_o_s);
+	long sum_of_squares = 0;
+	long square_of_sum = 0;
+	int i;
+	for (i=1; i<=N; i++) {
+		sum_of_squares += pow(i, 2);
+		square_of_sum += i;
+	}
+	square_of_sum = pow(square_of_sum, 2);
+	printf("%ld\n", square_of_sum - sum_of_squares);
 }
